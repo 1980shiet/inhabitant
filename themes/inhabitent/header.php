@@ -17,6 +17,8 @@
 	</head>
 
 	<body <?php body_class(); ?>>
+
+		<img src="<?php bloginfo('template_url'); ?>/images/inhabitent-logo-full.jpg"> 
 		<div id="page" class="hfeed site">
 			<a class="skip-link screen-reader-text" href="#content"><?php echo esc_html( 'Skip to content' ); ?></a>
 
