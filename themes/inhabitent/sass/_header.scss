@@ -1,0 +1,12 @@
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  .header-logo {
+    // position: absolute;
+    height: 45px;
+    width: 40px;
+  }
+}
