@@ -14,6 +14,7 @@ if(is_front_page( )):
 	?>
 		 <div class='hero-banner' style='background: url(<?php echo get_the_post_thumbnail_url(); ?>); background-size: cover;'>
 			<!-- output the white circle logo for the front-page -->
+			<img class="hero-banner-logo" src="<?php echo get_template_directory_uri(); ?>/images/logos/inhabitent-logo-full.svg"/>
 		</div>
 	<?php
 	endif;

@@ -421,9 +421,9 @@ textarea {
 --------------------------------------------------------------*/
 /* Links */
 a {
-  color: royalblue; }
+  color: black; }
   a:visited {
-    color: purple; }
+    color: #248a83; }
   a:hover, a:focus, a:active {
     color: midnightblue; }
   a:focus {
@@ -682,6 +682,21 @@ object {
 
 .hero-banner-title {
   color: white; }
+
+.fp-journal {
+  margin: 0 0.5rem; }
+
+.fp-journal-section h2 {
+  text-align: center; }
+
+.fp-journals {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #248a83;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 .site-content {
   display: -webkit-box;

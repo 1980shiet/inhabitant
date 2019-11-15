@@ -9,33 +9,29 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+		
+		<?php while ( have_posts() ) : the_post(); ?>
 
-	
-		<?php if ( have_posts() && is_home() && ! is_front_page() ) : ?>
-                <header>
-                    <h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
-                </header>
-			<?php endif; ?>
-			
+		<?php get_template_part( 'template-parts/content', 'page' ); ?>
 
-			<?php while ( have_posts() ) : the_post(); ?>
+		<?php endwhile; // End of the loop. ?>
 
-				<?php get_template_part( 'template-parts/content', 'page' ); ?>
-
-			<?php endwhile; // End of the loop. ?>
-
-			<?php
-			$args = array('post_type'=> 'post', 'order' => 'ASC' );
-
-			$posts_query = new WP_Query ( $args );
-			?>
-			<?php foreach ( $posts_query as $post ) : setup_postdata($post) ?>
-			<?php the_title();?>
-
-	<?php endforeach; wp_reset_postdata(); ?>
-
-			
-
+			<section class="fp-journal-section">
+				<h2>Inhabitent Journal</h2>
+				<?php
+				$args = array('post_type'=> 'post', 'order' => 'ASC', 'posts_per_page' => 3 );
+				$posts_query = get_posts( $args );
+				?>
+				<div class="fp-journals">
+					<?php foreach ( $posts_query as $post ) : setup_postdata($post) ?>
+						<article class="fp-journal">
+							<?php the_post_thumbnail('medium'); ?>
+							<h3><?php the_title();?></h3>
+							<a href="<?php echo get_the_permalink(); ?>">Read Entry</a>
+						</article>
+					<?php endforeach; wp_reset_postdata(); ?>
+				</div>
+			</section>
 			
 		</main><!-- #main -->
 	</div><!-- #primary -->
