@@ -680,8 +680,12 @@ object {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.hero-banner-title {
-  color: white; }
+.hero-banner-logo {
+  color: white;
+  height: 220px; }
+
+.fp-shop-stuff {
+  text-align: center; }
 
 .fp-journal {
   margin: 0 0.5rem; }
@@ -714,6 +718,18 @@ object {
   background-image: url(../../images/dark-wood.png);
   background-position: center;
   background-size: 600px 600px; }
+
+.site-info {
+  text-align: center; }
+
+.footer-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse; }
 
 .site-header {
   display: -webkit-box;
