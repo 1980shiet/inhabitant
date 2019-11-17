@@ -22,6 +22,10 @@
 .fp-journal {
   margin: 0 0.5rem;
   border: 1px solid #e1e1e1;
+  .btn {
+    border: 1px solid #e1e1e1;
+    padding: 20px;
+  }
 }
 
 .fp-journal-section h2 {
@@ -45,6 +49,7 @@
   }
 }
 /* Front page */
+
 .product-type-block-wrapper {
   display: flex;
   flex-direction: column;
@@ -53,13 +58,15 @@
   margin: 0 0.5rem;
   align-items: center;
   .btn {
-    background-color: #4caf50;
+    background-color: #248a83;
     border: none;
-    color: white;
+    color: #ffff;
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
     font-size: 16px;
+    font-weight: 100;
+    padding: 2px 25px;
   }
 }
 

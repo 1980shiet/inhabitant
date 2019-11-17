@@ -54,6 +54,9 @@ get_header(); ?>
 				</div>
 			</section>
 			
+			<section class="latest-adven">
+				<h2>Latest Adventures</h2>
+			</section>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 <?php get_footer(); ?>
