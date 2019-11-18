@@ -56,6 +56,20 @@ get_header(); ?>
 			
 			<section class="latest-adven">
 				<h2>Latest Adventures</h2>
+				<?php
+				$args = array('post_type'=> 'Adventure_Type', 'order' => 'ASC', 'posts_per_page' => 4 );
+				$Adventure_type_query = get_posts( $args );
+				?>
+				<div class="latest-adven">
+					<?php foreach ( $Adventure_type_query as $post ) : setup_postdata($post) ?>
+						<article class="latest-adven">
+							<?php the_post_thumbnail('medium'); ?>
+							<h3><?php the_title();?></h3>
+							<a href="<?php echo get_the_permalink(); ?>">Read Entry</a>
+						</article>
+					<?php endforeach; wp_reset_postdata(); ?>
+				</div>
+			</section>
 				
 			
 		</main><!-- #main -->

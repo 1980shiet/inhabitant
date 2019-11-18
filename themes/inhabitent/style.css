@@ -762,26 +762,29 @@ object {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column; }
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
   .site-footer .p {
     color: #fff; }
 
 .h3 {
   color: #d99054; }
 
-.contact-info {
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left; }
-
 .business-hours {
   text-align: center; }
 
 .site-info {
-  text-align: center; }
+  text-align: center;
+  width: 100%; }
+
+.footer-image {
+  width: 225px;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  text-align: right; }
+  .footer-image img {
+    width: 225px; }
 
 .site-header {
   display: -webkit-box;

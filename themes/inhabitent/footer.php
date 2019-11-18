@@ -22,6 +22,11 @@
 				<p>Sat: 10am to 2pm</p>
 				<p>Sun: Closed</p>
 			</div>
+
+			<div class= "footer-image">
+			<img class="header-logo" src = "<?php echo get_template_directory_uri(); ?>/images/logos/inhabitent-logo-text-dark.svg">
+			</div>
+			
 				<div class="site-info">
 			    <p>COPYRIGHT &copy 2019 INHABITENT</p>
 			</div><!-- .site-info -->

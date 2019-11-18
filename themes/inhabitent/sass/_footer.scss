@@ -3,7 +3,7 @@
   background-position: center;
   background-size: cover;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   .p {
     color: $color__background-body;
   }
@@ -11,10 +11,6 @@
 
 .h3 {
   color: $color-h3;
-}
-
-.contact-info {
-  justify-content: left;
 }
 
 .business-hours {
@@ -26,4 +22,14 @@
 
 .site-info {
   text-align: center;
+  width: 100%;
+}
+
+.footer-image {
+  width: 225px;
+  flex-grow: 2;
+  text-align: right;
+  img {
+    width: 225px;
+  }
 }
