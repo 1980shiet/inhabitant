@@ -1,15 +1,29 @@
 .site-footer {
-  background: black;
   background-image: url(../../images/dark-wood.png);
   background-position: center;
-  background-size: 600px 600px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  .p {
+    color: $color__background-body;
+  }
 }
 
-.site-info {
+.h3 {
+  color: $color-h3;
+}
+
+.contact-info {
+  justify-content: left;
+}
+
+.business-hours {
   text-align: center;
 }
 
-.footer-icons {
-  display: flex;
-  flex-direction: row-reverse;
+//.contact-info {
+//}
+
+.site-info {
+  text-align: center;
 }

@@ -9,25 +9,23 @@
 
 			</div><!-- #content -->
 
-			<footer id="colophon" class="site-footer" role="contentinfo">
-			<div class="footer-container">
+		  <footer id="colophon" class="site-footer" role="contentinfo">
 			<div class="contact-info">
-			<h3>Contact Info</h3>
+				<h3>Contact Info</h3>
+				<p><i class="fas fa-envelope"></i><a href="info@inhabitent.com">info@inhabitent.com</a></p>
+				<p><i class="fas fa-phone-alt"></i>778-465-7891</p>
+				<p><i class="fab fa-facebook-square"></i><i class="fab fa-twitter-square"></i><i class="fab fa-google-plus-square"></i></p>	
 			</div>
-			<p><i class="fas fa-envelope"></i><a href="info@inhabitent.com">info@inhabitent.com</a></p>
-			<p><i class="fas fa-phone-alt"></i><p>778-465-7891</p>
-			<div class="socialmedialogos">
-			  <ul class= "footer-icons">
-			  	<li><i class="fab fa-facebook-square"></i></li>
-				<li><i class="fab fa-twitter-square"></i></li>
-				<li><i class="fab fa-google-plus-square"></i></li>
 			<div class="business-hours">
 				<h3>Business Hours</h3>
+				<p>Monday-Friday: 9am to 5pm</p>
+				<p>Sat: 10am to 2pm</p>
+				<p>Sun: Closed</p>
+			</div>
 				<div class="site-info">
-				<p>COPYRIGHT &copy 2019 INHABITENT</p>
-					<a href="<?php echo esc_url( 'https://wordpress.org/' ); ?>"><?php printf( esc_html( 'Proudly powered by %s' ), 'WordPress' ); ?></a>
-				</div><!-- .site-info -->
-			</footer><!-- #colophon -->
+			    <p>COPYRIGHT &copy 2019 INHABITENT</p>
+			</div><!-- .site-info -->
+		  </footer><!-- #colophon -->
 		</div><!-- #page -->
 
 		<?php wp_footer(); ?>

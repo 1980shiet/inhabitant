@@ -16,7 +16,7 @@ get_header(); ?>
 
 		<?php endwhile; // End of the loop. ?>
 
-		<section class="product-info container">
+		<section class="product-info-container">
             <h2>Shop Stuff</h2>
             <?php
                $terms = get_terms( array(
@@ -56,7 +56,8 @@ get_header(); ?>
 			
 			<section class="latest-adven">
 				<h2>Latest Adventures</h2>
-			</section>
+				
+			
 		</main><!-- #main -->
 	</div><!-- #primary -->
 <?php get_footer(); ?>
