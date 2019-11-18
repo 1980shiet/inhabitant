@@ -9,12 +9,12 @@
   }
 }
 
-.h3 {
-  color: $color-h3;
-}
-
+.contact-info,
 .business-hours {
   text-align: center;
+  h3 {
+    color: $color-h3;
+  }
 }
 
 //.contact-info {

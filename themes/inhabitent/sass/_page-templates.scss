@@ -82,3 +82,40 @@
     width: 20%;
   }
 }
+
+.latest-adven-posts {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1120px;
+  margin: 0 auto 100px auto;
+  grid-template-rows: 250px 250px;
+}
+
+.latest-adven {
+  position: relative;
+  &:nth-of-type(1) {
+    grid-column: 1 / 3;
+    grid-row: 1 / -1;
+    background: skyblue;
+  }
+  &:nth-of-type(2) {
+    grid-column: 3 / 5;
+    background: slategray;
+  }
+  // &:nth-of-type(3) {
+  // }
+  // &:nth-of-type(4) {
+  // }
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.adventure-meta {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
