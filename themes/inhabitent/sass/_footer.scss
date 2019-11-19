@@ -4,6 +4,7 @@
   background-size: cover;
   display: flex;
   flex-wrap: wrap;
+  height: 350px;
   .p {
     color: $color__background-body;
   }
@@ -30,6 +31,6 @@
   flex-grow: 2;
   text-align: right;
   img {
-    width: 225px;
+    width: 285px;
   }
 }

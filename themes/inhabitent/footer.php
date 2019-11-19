@@ -24,9 +24,9 @@
 			</div>
 
 			<div class= "footer-image">
-			<img class="header-logo" src = "<?php echo get_template_directory_uri(); ?>/images/logos/inhabitent-logo-text-dark.svg">
+			<img class="header-logo" src = "<?php echo get_template_directory_uri(); ?>/images/logos/inhabitent-logo-text.svg">
 			</div>
-			
+
 				<div class="site-info">
 			    <p>COPYRIGHT &copy 2019 INHABITENT</p>
 			</div><!-- .site-info -->
