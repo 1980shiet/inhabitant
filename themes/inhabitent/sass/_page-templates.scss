@@ -22,6 +22,7 @@
 .fp-journal {
   margin: 0 0.5rem;
   border: 1px solid #e1e1e1;
+  width: 33%;
   .btn {
     border: 1px solid #e1e1e1;
     padding: 20px;
@@ -36,6 +37,8 @@
   display: flex;
   color: #248a83;
   justify-content: center;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 .site-content {
@@ -57,6 +60,7 @@
   border-top: 4px, solid #e1e1e1;
   margin: 0 0.5rem;
   align-items: center;
+  padding: 15px;
   .btn {
     background-color: #248a83;
     border: none;
@@ -79,7 +83,7 @@
   padding-left: 10%;
   padding-right: 10%;
   img {
-    width: 20%;
+    width: 25%;
   }
 }
 
@@ -98,10 +102,17 @@
     grid-column: 1 / 3;
     grid-row: 1 / -1;
     background: skyblue;
+    h3 {
+      font-size: 55px;
+    }
   }
   &:nth-of-type(2) {
     grid-column: 3 / 5;
     background: slategray;
+    h3 {
+      font-size: 35px;
+      color: #fff;
+    }
   }
   // &:nth-of-type(3) {
   // }
@@ -126,6 +137,11 @@
   left: 0;
   .btn {
     border: 1px solid #fff;
+    color: #fff;
+    padding: 15px;
+  }
+  h3 {
+    font-size: 25px;
     color: #fff;
   }
 }

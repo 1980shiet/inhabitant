@@ -5,8 +5,9 @@
   display: flex;
   flex-wrap: wrap;
   height: 350px;
+  color: $color__background-body;
   .p {
-    color: $color__background-body;
+    color: #fff;
   }
 }
 

@@ -66,7 +66,7 @@ get_header(); ?>
 							<?php the_post_thumbnail('large'); ?>
 							<div class="adventure-meta">
 								<h3><?php the_title();?></h3>
-								<a class="btn" href="<?php echo get_the_permalink(); ?>">Read Entry</a>
+								<a class="btn" href="<?php echo get_the_permalink(); ?>">Read More</a>
 							</div>
 						</article>
 					<?php endforeach; wp_reset_postdata(); ?>
