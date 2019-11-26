@@ -688,6 +688,7 @@ object {
 .fp-shop-stuff {
   text-align: center; }
 
+/*  Journal */
 .fp-journal {
   margin: 0 0.5rem;
   border: 1px solid #e1e1e1;
@@ -709,6 +710,9 @@ object {
           justify-content: center;
   max-width: 1140px;
   margin: 0 auto; }
+  .fp-journals .btn {
+    border: 1px solid #e1e1e1;
+    padding: 20px; }
 
 .site-content {
   display: -webkit-box;
@@ -719,6 +723,16 @@ object {
     width: 100%; }
   .site-content .widget-area {
     width: 25%; }
+
+.entry-header {
+  position: relative; }
+  .entry-header .entry-title {
+    top: 1.3rem;
+    width: 500px; }
+
+.entry-header a {
+  color: #fff;
+  position: relative; }
 
 /* Front page */
 .product-type-block-wrapper {

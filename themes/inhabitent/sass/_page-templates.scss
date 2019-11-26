@@ -19,6 +19,8 @@
   text-align: center;
 }
 
+/*  Journal */
+
 .fp-journal {
   margin: 0 0.5rem;
   border: 1px solid #e1e1e1;
@@ -39,6 +41,10 @@
   justify-content: center;
   max-width: 1140px;
   margin: 0 auto;
+  .btn {
+    border: 1px solid #e1e1e1;
+    padding: 20px;
+  }
 }
 
 .site-content {
@@ -51,6 +57,22 @@
     width: 25%;
   }
 }
+
+.entry-header {
+  position: relative;
+  .entry-title {
+    //position: absolute;
+    top: 1.3rem;
+    width: 500px;
+    //background-color: #248a83;
+  }
+}
+
+.entry-header a {
+  color: #fff;
+  position: relative;
+}
+
 /* Front page */
 
 .product-type-block-wrapper {
