@@ -133,11 +133,14 @@
     grid-column: 3 / 5;
     background: slategray;
     h3 {
-      font-size: 35px;
-      color: #fff;
+      font-size: 2.5rem;
+      padding: 1.2rem;
     }
   }
   // &:nth-of-type(3) {
+  h3 {
+    padding: 1.2rem;
+  }
   // }
   // &:nth-of-type(4) {
   // }
