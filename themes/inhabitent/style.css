@@ -788,7 +788,8 @@ object {
     grid-row: 1 / -1;
     background: skyblue; }
     .latest-adven:nth-of-type(1) h3 {
-      font-size: 55px; }
+      font-size: 2.5rem;
+      padding: 1.2rem; }
   .latest-adven:nth-of-type(2) {
     grid-column: 3 / 5;
     background: slategray; }
@@ -811,7 +812,8 @@ object {
   .adventure-meta .btn {
     border: 1px solid #fff;
     color: #fff;
-    padding: 15px; }
+    padding: 10px;
+    margin-left: 1rem; }
   .adventure-meta h3 {
     font-size: 25px;
     color: #fff; }
@@ -830,6 +832,9 @@ object {
   text-align: center;
   font-size: 2.15rem;
   text-transform: uppercase; }
+
+.adventure-meta h3 {
+  font-size: 1.5rem; }
 
 .site-footer {
   background-image: url(../../images/dark-wood.png);
@@ -869,14 +874,16 @@ object {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   position: fixed;
   width: 100%; }
+  .site-header a {
+    color: #fff;
+    text-transform: uppercase; }
   .site-header .header-logo {
-    height: 45px;
+    height: 75px;
     width: 40px; }

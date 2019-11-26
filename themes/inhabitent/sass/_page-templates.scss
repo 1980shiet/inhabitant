@@ -125,7 +125,8 @@
     grid-row: 1 / -1;
     background: skyblue;
     h3 {
-      font-size: 55px;
+      font-size: 2.5rem;
+      padding: 1.2rem;
     }
   }
   &:nth-of-type(2) {
@@ -160,7 +161,8 @@
   .btn {
     border: 1px solid #fff;
     color: #fff;
-    padding: 15px;
+    padding: 10px;
+    margin-left: 1rem;
   }
   h3 {
     font-size: 25px;
@@ -186,4 +188,12 @@
   text-align: center;
   font-size: 2.15rem;
   text-transform: uppercase;
+}
+
+// Front-page Adventure Section
+
+.adventure-meta {
+  h3 {
+    font-size: 1.5rem;
+  }
 }

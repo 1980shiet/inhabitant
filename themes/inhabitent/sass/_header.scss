@@ -1,12 +1,18 @@
 .site-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   position: fixed;
   width: 100%;
+
+  a {
+    color: #fff;
+    text-transform: uppercase;
+  }
+
   .header-logo {
     // position: absolute;
-    height: 45px;
+    height: 75px;
     width: 40px;
   }
 }
