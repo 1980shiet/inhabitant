@@ -45,10 +45,13 @@ get_header(); ?>
 				?>	
 				<div class="fp-journals">	
 					<?php foreach ( $posts_query as $post ) : setup_postdata($post) ?>	
-						<article class="fp-journal">	
-							<?php the_post_thumbnail('medium'); ?>	
+						<article class="fp-journal">
+							<div class="fp-journal-image">	
+								<?php the_post_thumbnail('large'); ?>
+							</div>
+							<div class="journal-stuff">
 							<h3><?php the_title();?></h3>	
-							<a href="<?php echo get_the_permalink(); ?>">Read Entry</a>	
+							<a class="journbtn" href="<?php echo get_the_permalink(); ?>">Read Entry</a>	
 						</article>	
 					<?php endforeach; wp_reset_postdata(); ?>	
 				</div>	

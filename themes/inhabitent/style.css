@@ -693,12 +693,13 @@ object {
   margin: 0 0.5rem;
   border: 1px solid #e1e1e1;
   width: 33%; }
-  .fp-journal .btn {
-    border: 1px solid #e1e1e1;
-    padding: 20px; }
 
 .fp-journal-section h2 {
   text-align: center; }
+
+.fp-journal-image {
+  height: 230px;
+  overflow: hidden; }
 
 .fp-journals {
   display: -webkit-box;
@@ -710,9 +711,13 @@ object {
           justify-content: center;
   max-width: 1140px;
   margin: 0 auto; }
-  .fp-journals .btn {
-    border: 1px solid #e1e1e1;
-    padding: 20px; }
+  .fp-journals .journbtn {
+    border: 1px solid black;
+    padding: 0.5rem;
+    display: inline-block; }
+    .fp-journals .journbtn img {
+      height: 200px;
+      max-width: 100%; }
 
 .site-content {
   display: -webkit-box;
@@ -794,8 +799,10 @@ object {
     grid-column: 3 / 5;
     background: slategray; }
     .latest-adven:nth-of-type(2) h3 {
-      font-size: 35px;
-      color: #fff; }
+      font-size: 1.8rem;
+      padding: 1.2rem; }
+  .latest-adven h3 {
+    padding: 1.2rem; }
   .latest-adven img {
     -o-object-fit: cover;
        object-fit: cover;

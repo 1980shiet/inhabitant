@@ -25,14 +25,19 @@
   margin: 0 0.5rem;
   border: 1px solid #e1e1e1;
   width: 33%;
-  .btn {
-    border: 1px solid #e1e1e1;
-    padding: 20px;
-  }
+  //.btn {
+  // border: 1px solid #e1e1e1;
+  //padding: 20px;
+  //}
 }
 
 .fp-journal-section h2 {
   text-align: center;
+}
+
+.fp-journal-image {
+  height: 230px;
+  overflow: hidden;
 }
 
 .fp-journals {
@@ -41,9 +46,14 @@
   justify-content: center;
   max-width: 1140px;
   margin: 0 auto;
-  .btn {
-    border: 1px solid #e1e1e1;
-    padding: 20px;
+  .journbtn {
+    border: 1px solid black;
+    padding: 0.5rem;
+    display: inline-block;
+    img {
+      height: 200px;
+      max-width: 100%;
+    }
   }
 }
 
@@ -133,7 +143,7 @@
     grid-column: 3 / 5;
     background: slategray;
     h3 {
-      font-size: 2.5rem;
+      font-size: 1.8rem;
       padding: 1.2rem;
     }
   }

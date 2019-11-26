@@ -13,5 +13,5 @@ get_header(); ?>
 				</main><!-- #main -->
 	</div><!-- #primary -->
  <!-- remove sidebar once content is added -->
-<?php get_sidebar(); ?>
+
 <?php get_footer(); ?>
