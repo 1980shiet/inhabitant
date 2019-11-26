@@ -733,28 +733,35 @@ object {
   max-width: 1240px;
   margin: auto; }
 
-/*.entry-header {
+.blog .entry-header {
   position: relative;
-  display: flex;
-  .entry-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .blog .entry-header .entry-title {
     position: absolute;
     top: 1.3rem;
     width: 500px;
-    //background-color: #248a83;
-  }
-}
+    background-color: #248a83; }
+    .blog .entry-header .entry-title a {
+      color: white; }
 
-.entry-meta {
+.blog .entry-meta {
   position: absolute;
   display: inline-block;
   bottom: 0;
   right: 0;
-}
+  background: #248a83;
+  color: white; }
 
-.entry-header a {
-  color: #248a83;
-  position: relative;
-}*/
+.blog .entry-header {
+  position: relative; }
+  .blog .entry-header img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+    height: 100%; }
+
 /* Front page */
 .product-type-block-wrapper {
   display: -webkit-box;

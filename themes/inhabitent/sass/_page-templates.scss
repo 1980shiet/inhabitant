@@ -68,33 +68,44 @@
   }
 }
 
-.blog .site-content {
-  max-width: 1240px;
-  margin: auto;
-}
-
-/*.entry-header {
-  position: relative;
-  display: flex;
-  .entry-title {
-    position: absolute;
-    top: 1.3rem;
-    width: 500px;
-    //background-color: #248a83;
+.blog {
+  .site-content {
+    max-width: 1240px;
+    margin: auto;
   }
-}
 
-.entry-meta {
-  position: absolute;
-  display: inline-block;
-  bottom: 0;
-  right: 0;
-}
+  .entry-header {
+    position: relative;
+    display: flex;
+    .entry-title {
+      position: absolute;
+      top: 1.3rem;
+      width: 500px;
+      background-color: #248a83;
+      a {
+        color: white;
+      }
+    }
+  }
 
-.entry-header a {
-  color: #248a83;
-  position: relative;
-}*/
+  .entry-meta {
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    right: 0;
+    background: #248a83;
+    color: white;
+  }
+
+  .entry-header {
+    position: relative;
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  }
+} // .blog
 
 /* Front page */
 
