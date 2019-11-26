@@ -816,6 +816,21 @@ object {
     font-size: 25px;
     color: #fff; }
 
+.about-page-content {
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 3rem; }
+
+.hero-banner-title {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #fff; }
+
+.about-page-content h2 {
+  text-align: center;
+  font-size: 2.15rem;
+  text-transform: uppercase; }
+
 .site-footer {
   background-image: url(../../images/dark-wood.png);
   background-position: center;
