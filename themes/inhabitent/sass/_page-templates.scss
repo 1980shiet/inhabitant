@@ -64,7 +64,13 @@
     width: 100%;
   }
   .widget-area {
-    width: 25%;
+    width: 33%;
+    padding-left: 5%;
+    a,
+    ul {
+      color: #248a83;
+      margin: 0;
+    }
   }
 }
 
@@ -84,6 +90,7 @@
       background-color: #248a83;
       a {
         color: white;
+        padding: 0.65rem 1.2rem;
       }
     }
   }
