@@ -8,7 +8,8 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
-		<section class="product-info-container">
+
+	<section class="product-info-container">
             <h2>Shop Stuff</h2>
             <?php
                $terms = get_terms( array(
@@ -28,11 +29,6 @@ get_header(); ?>
 		 </section>
 		 
 		<main id="main" class="product-gallery" role="main">
-
-
-		
-
-
 		<?php while ( have_posts() ) : the_post(); ?>
 	
 

@@ -862,6 +862,8 @@ object {
     width: 50%; }
   .single-product .product .right-column {
     width: 50%; }
+    .single-product .product .right-column h1 {
+      color: #d99054; }
 
 .about-page-content {
   width: 60%;

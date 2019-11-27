@@ -33,12 +33,13 @@ function custom_taxonomy_product_type() {
 	);
 	$args = array(
 		'labels'                     => $labels,
-		'hierarchical'               => false,
+		'hierarchical'               => true,
 		'public'                     => true,
 		'show_ui'                    => true,
 		'show_admin_column'          => true,
 		'show_in_nav_menus'          => true,
 		'show_tagcloud'              => true,
+		'show_in_rest'				 => true
 	);
 	register_taxonomy( 'product_type', array( 'product' ), $args );
 

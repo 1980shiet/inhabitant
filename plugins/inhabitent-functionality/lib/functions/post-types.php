@@ -43,7 +43,6 @@ function products_custom_post_type() {
 		'description'           => __( 'Product information pages.', 'text_domain' ),
 		'labels'                => $labels,
 		'supports'              => array( 'title', 'editor', 'thumbnail', 'revisions', 'custom-fields' ),
-	
 		'hierarchical'          => false,
 		'public'                => true,
 		'show_ui'               => true,
@@ -101,7 +100,6 @@ function custom_post_type() {
 		'description'           => __( 'adventure_type Description', 'text_domain' ),
 		'labels'                => $labels,
 		'supports'              => array( 'title', 'editor', 'thumbnail', 'comments', 'custom-fields' ),
-		'taxonomies'            => array( 'category', 'post_tag' ),
 		'hierarchical'          => false,
 		'public'                => true,
 		'show_ui'               => true,
@@ -113,7 +111,7 @@ function custom_post_type() {
 		'has_archive'           => true,
 		'exclude_from_search'   => false,
 		'publicly_queryable'    => true,
-		'capability_type'       => 'page',
+		'capability_type'       => 'post',
 	);
 	register_post_type( 'adventure_type', $args );
 
