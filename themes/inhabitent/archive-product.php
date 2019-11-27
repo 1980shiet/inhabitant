@@ -44,7 +44,7 @@ get_header(); ?>
 
 		<div class="product-info">
 			<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
-			$<?php the_field('price'); ?>
+			<p class="product-price">$<?php the_field('price'); ?></p>
 		</div>
 
 </article><!-- #post-## -->
