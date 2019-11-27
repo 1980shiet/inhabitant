@@ -37,10 +37,11 @@ get_header(); ?>
 	
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	
+		<div class="product-img-con">
 		<?php if ( has_post_thumbnail() ) : ?>
 			<?php the_post_thumbnail( 'medium' ); ?>
 		<?php endif; ?>
+		</div>
 
 		<div class="product-info">
 			<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>

@@ -836,10 +836,24 @@ object {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  width: 50%;
   padding-left: 10%;
   padding-right: 10%; }
   .product-type-blocks img {
     width: 25%; }
+
+.product-img-con {
+  height: 200px;
+  overflow: hidden; }
+  .product-img-con img {
+    min-width: 100%;
+    min-height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover; }
 
 .latest-adven-posts {
   display: grid;
