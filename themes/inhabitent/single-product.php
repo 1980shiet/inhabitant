@@ -18,9 +18,7 @@ get_header(); ?>
 				<div class="left-column">
 					<?php if ( has_post_thumbnail() ) : ?>
 						<?php the_post_thumbnail( 'large' ); ?>
-					<?php endif; ?>
-
-					
+					<?php endif; ?>	
 				</div>
 				
 				<div class="right-column">

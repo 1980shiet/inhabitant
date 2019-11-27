@@ -854,13 +854,13 @@ object {
     font-size: 25px;
     color: #fff; }
 
-.product {
+.single-product .product {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
-  .product .left-column {
+  .single-product .product .left-column {
     width: 50%; }
-  .product .right-column {
+  .single-product .product .right-column {
     width: 50%; }
 
 .about-page-content {
