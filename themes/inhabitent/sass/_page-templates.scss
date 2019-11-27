@@ -234,3 +234,16 @@
     font-size: 1.5rem;
   }
 }
+
+// Product galllery
+
+.product-gallery {
+  max-width: 1140px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  display: flex;
+  article {
+    width: calc(25% - 10px);
+    margin: 10px;
+  }
+}

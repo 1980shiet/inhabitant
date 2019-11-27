@@ -866,6 +866,18 @@ object {
 .adventure-meta h3 {
   font-size: 1.5rem; }
 
+.product-gallery {
+  max-width: 1140px;
+  margin: 0 auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .product-gallery article {
+    width: calc(25% - 10px);
+    margin: 10px; }
+
 .site-footer {
   background-image: url(../../images/dark-wood.png);
   background-position: center;
@@ -912,7 +924,7 @@ object {
   position: fixed;
   width: 100%; }
   .site-header a {
-    color: #fff;
+    color: green;
     text-transform: uppercase; }
   .site-header .header-logo {
     height: 75px;
