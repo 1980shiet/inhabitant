@@ -249,8 +249,8 @@
   margin: 0 auto;
   flex-wrap: wrap;
   display: flex;
-  article {
-    width: calc(25% - 10px);
+  .product {
+    width: calc(25% - 20px);
     margin: 10px;
   }
 }

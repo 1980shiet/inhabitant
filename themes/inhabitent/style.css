@@ -880,8 +880,8 @@ object {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
-  .product-gallery article {
-    width: calc(25% - 10px);
+  .product-gallery .product {
+    width: calc(25% - 20px);
     margin: 10px; }
 
 .site-footer {
@@ -927,7 +927,6 @@ object {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: fixed;
   width: 100%; }
   .site-header a {
     color: green;
