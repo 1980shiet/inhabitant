@@ -14,21 +14,18 @@ get_header(); ?>
 
 			
 
-			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-				<header class="entry-header">
+			<article  id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+				<div class="left-column">
 					<?php if ( has_post_thumbnail() ) : ?>
 						<?php the_post_thumbnail( 'large' ); ?>
 					<?php endif; ?>
 
-					<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-					<h2>Price: $<?php the_field('price'); ?></h2>
 					
-					<div class="entry-meta">
+				</div>
 				
-					</div><!-- .entry-meta -->
-				</header><!-- .entry-header -->
-
-				<div class="entry-content">
+				<div class="right-column">
+				<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+					<h2>Price: $<?php the_field('price'); ?></h2>
 					<?php the_content(); ?>
 					<?php
 						wp_link_pages( array(

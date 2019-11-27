@@ -854,6 +854,15 @@ object {
     font-size: 25px;
     color: #fff; }
 
+.product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .product .left-column {
+    width: 50%; }
+  .product .right-column {
+    width: 50%; }
+
 .about-page-content {
   width: 60%;
   margin: 0 auto;
