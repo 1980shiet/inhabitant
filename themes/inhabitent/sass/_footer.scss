@@ -11,16 +11,11 @@
   }
 }
 
-.contact-info,
-.business-hours {
-  text-align: center;
-  h3 {
+.contact-info .business-hours {
+  .h3 {
     color: $color-h3;
   }
 }
-
-//.contact-info {
-//}
 
 .site-info {
   text-align: center;
@@ -30,7 +25,7 @@
 .footer-image {
   width: 225px;
   flex-grow: 2;
-  text-align: right;
+  margin: 70px;
   img {
     width: 285px;
   }
