@@ -1,6 +1,9 @@
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
+.body {
+  font-family: $font-boss;
+}
 
 .hero-banner {
   height: 100vh;
@@ -113,7 +116,7 @@
       height: 100%;
     }
   }
-} // .blog
+} // .bl
 
 /* Front page */
 
@@ -199,7 +202,7 @@
     object-fit: cover;
   }
 }
-
+// Adventures
 .latest-adven-posts {
   display: grid;
   grid-gap: 20px;
