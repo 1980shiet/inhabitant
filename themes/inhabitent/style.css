@@ -695,7 +695,8 @@ object {
   width: 33%; }
 
 .fp-journal-section h2 {
-  text-align: center; }
+  text-align: center;
+  text-transform: uppercase; }
 
 .fp-journal-image {
   height: 230px;
@@ -830,7 +831,8 @@ object {
       position: absolute; }
 
 .product-info-container {
-  text-align: center; }
+  text-align: center;
+  text-transform: uppercase; }
 
 .product-type-blocks {
   display: -webkit-box;
@@ -888,7 +890,8 @@ object {
     height: 100%; }
 
 .latest-advens h2 {
-  text-align: center; }
+  text-align: center;
+  text-transform: uppercase; }
 
 .adventure-meta {
   position: absolute;
