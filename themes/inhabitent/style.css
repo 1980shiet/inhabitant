@@ -836,6 +836,7 @@ object {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  color: #248a83;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;

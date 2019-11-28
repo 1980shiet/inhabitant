@@ -27,7 +27,7 @@ get_header(); ?>
                </div>
             <?php endif; ?>
 		 </section>
-		 
+
 		<main id="main" class="product-gallery" role="main">
 		<?php while ( have_posts() ) : the_post(); ?>
 	
@@ -35,7 +35,9 @@ get_header(); ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	
 		<?php if ( has_post_thumbnail() ) : ?>
+		<div class="product-img-con">
 			<?php the_post_thumbnail( 'medium' ); ?>
+		</div>
 		<?php endif; ?>
 
 		<div class="product-info">
